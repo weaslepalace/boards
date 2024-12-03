@@ -1,0 +1,178 @@
+(footprint "WAGO_2060-852998-404"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.2 -6.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "84fca3c8-70f6-4601-b08d-75c56a83169f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WAGO_2060-852998-404"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eee2a374-7f6d-4235-8499-b953e9ad5bf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df9b7940-8505-46e7-a7a5-d151d72d9c9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fe0c300-2cd1-4da8-b75a-bd7d3d892d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c606e2b-c99b-400d-8224-7bce5770e090")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -7.2 -5.6)
+		(end 7.2 5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3d6c756f-7ecf-4090-996a-7a327cad8c10")
+	)
+	(fp_rect
+		(start -7.2 -5.6)
+		(end 7.2 5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Margin")
+		(uuid "644e636a-351f-49ea-a950-10a8b8241c7e")
+	)
+	(fp_line
+		(start -8 -5.4)
+		(end -8 5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8d550306-807a-4597-8718-0b63ad5c6aa1")
+	)
+	(fp_rect
+		(start -6.5 -5.4)
+		(end 6.2 5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1e3bbfde-8797-4ab7-adf1-1c13428fdbd3")
+	)
+	(fp_text user "PCB Edge"
+		(at -8 3.2 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2146bb5c-17a7-4351-af88-0cd5717f17c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fdc8c95e-3024-4224-ba80-472c6a1dae6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4 4)
+		(size 6 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "8ed91a76-ee01-46d2-98be-c44453bb841d")
+	)
+	(pad "2" smd roundrect
+		(at -4 -4)
+		(size 6 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "57662bb0-f612-42c3-b1b8-644862848fb7")
+	)
+	(pad "3" smd roundrect
+		(at 5.25 4)
+		(size 3.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "6a5ca854-4639-4fd8-92a5-0902d300f66d")
+	)
+	(pad "4" smd roundrect
+		(at 5.25 -4)
+		(size 3.5 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "18099bd7-0c0a-4c86-bb16-8880a0893794")
+	)
+	(model "/home/pigeonant/boards/Library/Models/2060-852_998-404.stp"
+		(offset
+			(xyz -7 -6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

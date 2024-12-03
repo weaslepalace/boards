@@ -1,0 +1,163 @@
+(footprint "Telema_AC1100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -21 -8.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "217b9800-eb6a-4b4d-8668-1e3070d43c06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Telema_AC1100"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5530aad-0167-480a-84fe-f021aaa9afed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3003a82f-2a61-48e9-b69b-6449c144976b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fbd39f0-0e44-40ba-abe1-abbd652986d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caef5dc6-b1a2-4732-a1c9-ecb624640fee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -23 -8)
+		(end 23 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "03ffa8f7-7116-42db-a973-2aab74ba4980")
+	)
+	(fp_rect
+		(start -23 -8)
+		(end 23 8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d835f744-32a7-408b-83b5-f248965a85bd")
+	)
+	(fp_rect
+		(start -22.25 -7.15)
+		(end 22.25 7.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7ddab2ef-8587-4095-8158-85454d590760")
+	)
+	(fp_poly
+		(pts
+			(xy 0 8.5) (xy -1.25 10) (xy -0.5 10) (xy -0.5 12.25) (xy 0.5 12.25) (xy 0.5 10) (xy 1.25 10)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "b301808c-09b1-4ae2-b5b0-a1e62a420888")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b39b56fa-347d-44ef-8ab0-129566440e04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 0 5.08)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e81e9ee-6262-4acf-9ef7-348b463e14a3")
+	)
+	(pad "1" thru_hole circle
+		(at -17.78 -5.08)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "725fe34a-cc01-431e-86d1-2b515090e806")
+	)
+	(pad "2" thru_hole circle
+		(at 17.78 -5.08)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "741a8d00-40ee-4606-8484-55e10529b108")
+	)
+	(model "/home/pigeonant/boards/Library/Models/AC1100.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,177 @@
+(footprint "Abracon_ABM8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ff6d17f8-271c-4288-8da8-f3a9f3751ce6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Abracon_ABM8"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "004d1c1f-10a6-4e02-b192-fa51750d26a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf3d8055-4921-4805-aa3e-5d56002e6fcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c690f491-106c-4981-bf00-8b1cf188887c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "707523ee-faaf-4d56-b067-e2b178c44d11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ed25dd75-50e3-43c9-8d75-9ad491d9bcc3")
+	)
+	(fp_circle
+		(center -1.25 2)
+		(end -1 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "42fb3aa8-9acd-45dd-8e69-72b00b217cd2")
+	)
+	(fp_rect
+		(start -2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "dd0e45b2-1933-429e-abca-ad40d53fce03")
+	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end -0.75 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "d9540782-3cfe-4340-9b1f-4730119e17df")
+	)
+	(fp_rect
+		(start -1.6 1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1ee280dc-d45f-4527-902c-9f828e708ea5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd87b24b-67da-471c-a64a-d72a9a7f82d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.15 0.875)
+		(size 1.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "2e14a10a-0222-462c-8d38-6ce0c29e4946")
+	)
+	(pad "2" smd roundrect
+		(at 1.15 0.875)
+		(size 1.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "48d8cef7-60b5-4e5f-ab87-aee7f850b745")
+	)
+	(pad "3" smd roundrect
+		(at 1.15 -0.875)
+		(size 1.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "2d1e8c81-0df0-437b-a72c-1ec97d7bc7ac")
+	)
+	(pad "4" smd roundrect
+		(at -1.15 -0.875)
+		(size 1.3 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "bae8492d-ffa7-4633-be11-28e463914384")
+	)
+	(model "/home/pigeonant/boards/Library/Models/ABM8-27.000MHZ-10-1-U-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
