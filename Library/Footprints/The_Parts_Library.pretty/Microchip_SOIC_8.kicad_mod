@@ -188,7 +188,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "ab7d9a83-024d-4ed9-8234-af54dafb0378")
 	)
-	(model "${THE_PARTS_3DMODEL_DIR}/SOIC8_4P9X3P9MC_MCH.step"
+	(model "/home/pigeonant/boards/Library/Models/SOIC8_4P9X3P9MC_MCH.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -128,7 +128,7 @@
 		(remove_unused_layers no)
 		(uuid "638048bb-36f9-4c2b-9e06-0c5d49cdd8d9")
 	)
-	(model "${THE_PARTS_3DMODEL_DIR}/CAP_B32923P3225K000_TDK.step"
+	(model "/home/pigeonant/boards/Library/Models/CAP_B32923P3225K000_TDK.step"
 		(offset
 			(xyz -11.25 0 0)
 		)
