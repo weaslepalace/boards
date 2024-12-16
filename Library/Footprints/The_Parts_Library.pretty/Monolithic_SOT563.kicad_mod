@@ -1,0 +1,229 @@
+(footprint "Monolithic_SOT563"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ab378037-a823-43c3-b220-92ded486e142")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Monolithic_SOT563"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "226b98f4-25d4-4a47-b13d-ecec00eb339c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06708bc3-e692-41fd-a344-727f638ed56a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bc38c78-cfe3-4b92-8362-a8d2aa1438ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a75b08f5-25ed-4c1e-bbef-580f57c7283b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9894c8e6-24b7-4b03-948d-7ab3bf8aae52")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -0.75 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3bdcd51-de2a-4b84-a150-4744bb750b5f")
+	)
+	(fp_line
+		(start -1 1)
+		(end -0.75 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "192df194-d3f5-4fd4-add8-ea2852f45bd7")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 0.75 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4e63a902-21cd-42b0-bc51-0907320bd3f8")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a976f65f-59bb-4d2f-964a-b441cee90951")
+	)
+	(fp_line
+		(start 1 1)
+		(end 0.75 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "78a9d85a-70e6-4c42-8134-bef6025574ba")
+	)
+	(fp_circle
+		(center -0.5 1.2)
+		(end -0.4 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b00310d7-beb7-487f-b5cc-8f84b796bd32")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "15c86f1b-db24-472f-b9f4-ed6fb63eb451")
+	)
+	(fp_rect
+		(start -0.85 -0.65)
+		(end 0.85 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9fb4299b-bcec-4e6b-a939-fe3e0370d6af")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d02c2730-d342-4147-a823-e0c67d1be714")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5 0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9c39a0f3-6103-40ca-addb-32395570e2b9")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "6812ae7e-3aa1-4ecd-ad26-29eed59d7b7e")
+	)
+	(pad "3" smd roundrect
+		(at 0.5 0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0562f22e-ee07-4997-916c-9e09538e29d0")
+	)
+	(pad "4" smd roundrect
+		(at 0.5 -0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1266449a-903c-4bd8-865d-4fb274033f68")
+	)
+	(pad "5" smd roundrect
+		(at 0 -0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7e7abaf4-9e58-4e80-a4cb-7c8a4036bad2")
+	)
+	(pad "6" smd roundrect
+		(at -0.5 -0.7)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "63e90fb1-aabe-4445-8ef6-dcf1e9427396")
+	)
+	(model "/home/pigeonant/boards/Library/Models/SOT563_MP1653A_MNP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

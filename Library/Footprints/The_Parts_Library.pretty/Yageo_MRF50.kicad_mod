@@ -1,13 +1,13 @@
-(footprint "TDK_MPK_Polycap_22uF"
+(footprint "Yageo_MRF50"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -13 -8.5 0)
+		(at -5.25 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "067839da-7aae-4991-aecd-c78d7d1ba229")
+		(uuid "4bc79bc3-27bc-4ae5-a27c-fcbafad30d56")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,12 @@
 			)
 		)
 	)
-	(property "Value" "TDK_MPK_Polycap_22uF"
-		(at 0 0 0)
+	(property "Value" "Yageo_MRF50"
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e3921d82-5ed0-4777-9052-1f2df4bacd12")
+		(hide yes)
+		(uuid "9d0fd59c-e7f3-43d1-bcb8-1ad8177e7ff6")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +29,11 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 6.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "72881c9d-236f-4d48-a47f-44eb5a42b445")
+		(uuid "342feb3d-eee4-43ef-bca9-1c5a319d73c0")
 		(effects
 			(font
 				(size 1 1)
@@ -41,11 +42,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 6.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c732d06-79ae-42de-af11-e20703a51e35")
+		(uuid "206da217-949d-48d5-8257-d610b35bff99")
 		(effects
 			(font
 				(size 1 1)
@@ -54,11 +55,11 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 6.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "36a8f2a4-3f95-4a7f-929a-fe48ca3e5890")
+		(uuid "724c1882-c328-4909-b899-7015b5d710ba")
 		(effects
 			(font
 				(size 1 1)
@@ -68,43 +69,43 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start 14.75 -7.75)
-		(end -14.75 7.75)
+		(start -4.5 -1.65)
+		(end 4.5 1.65)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "e7d16091-040e-4ff8-89b1-64b43cbea0bd")
+		(uuid "e1126bc9-9f9d-4ec2-9760-22679e460170")
 	)
 	(fp_rect
-		(start -14.75 -7.75)
-		(end 14.75 7.75)
+		(start -7 -1.75)
+		(end 7 1.75)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "01ac8793-1b7d-494b-b2fc-4d00f2c4dddd")
+		(uuid "8bcf0aa8-48ac-43d5-a567-6c1116bf2c72")
 	)
 	(fp_rect
-		(start -14.75 -7.25)
-		(end 14.75 7.25)
+		(start -4.5 -1.65)
+		(end 4.5 1.65)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "26648a07-cb86-4727-8c79-3b966c2ad60d")
+		(uuid "73e690ca-bbc3-43b6-9550-26a53022e56f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8feb977c-eb1b-4669-a4f0-11fa1f1da1a8")
+		(uuid "0ca8a713-3d93-4ca2-ae93-dd1b10f00f8e")
 		(effects
 			(font
 				(size 1 1)
@@ -113,24 +114,24 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -11.25 0)
-		(size 1.4 1.4)
-		(drill 0.95)
+		(at -6.25 0)
+		(size 1.5 1.5)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "54880950-06d6-45ba-876c-f66fc1464f0c")
+		(uuid "f5101e5e-6c5c-4a9e-8a3c-2850d0814390")
 	)
 	(pad "2" thru_hole circle
-		(at 11.25 0)
-		(size 1.4 1.4)
-		(drill 0.95)
+		(at 6.25 0)
+		(size 1.5 1.5)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "638048bb-36f9-4c2b-9e06-0c5d49cdd8d9")
+		(uuid "3c0eb851-5250-499a-be00-9334c31efca8")
 	)
-	(model "/home/pigeonant/boards/Library/Models/CAP_B32923P3225K000_TDK.step"
+	(model "/home/pigeonant/boards/Library/Models/YAG_MF25_YAG.step"
 		(offset
-			(xyz -11.25 0 0)
+			(xyz -5.75 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
