@@ -456,7 +456,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Number" "4086"
+			(property "Supplier Part Number" "2057-PH1-13-UA-ND"
 				(at 12.7 -7.62 0)
 				(effects
 					(font
@@ -3136,7 +3136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "4086"
+		(property "Supplier Part Number" "2057-PH1-13-UA-ND"
 			(at 157.48 147.32 0)
 			(effects
 				(font

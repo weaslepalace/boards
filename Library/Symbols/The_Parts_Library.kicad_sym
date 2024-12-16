@@ -15395,18 +15395,6 @@
 			)
 			(polyline
 				(pts
-					(xy 12.9362 0.2423) (xy 12.9312 0.2628)
-				)
-				(stroke
-					(width 0.0264)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 12.936 0.5796) (xy 13.0006 0.5991)
 				)
 				(stroke
@@ -15420,6 +15408,18 @@
 			(polyline
 				(pts
 					(xy 12.9358 7.0846) (xy 12.8994 7.0254)
+				)
+				(stroke
+					(width 0.0264)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.9362 0.2423) (xy 12.9312 0.2628)
 				)
 				(stroke
 					(width 0.0264)
@@ -40573,7 +40573,7 @@
 					(xy 13.1074 15.1174) (xy 13.1412 15.1183) (xy 13.1746 15.1175)
 				)
 				(stroke
-					(width 0.0435)
+					(width 0.0434)
 					(type solid)
 				)
 				(fill
@@ -40641,7 +40641,7 @@
 					(xy 15.7603 12.0937) (xy 15.7794 12.0947) (xy 15.7987 12.095) (xy 15.7986 12.095)
 				)
 				(stroke
-					(width 0.0389)
+					(width 0.0388)
 					(type solid)
 				)
 				(fill
@@ -41835,7 +41835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "4086"
+		(property "Supplier Part Number" "2057-PH1-13-UA-ND"
 			(at 12.7 -7.62 0)
 			(effects
 				(font
