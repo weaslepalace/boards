@@ -13673,18 +13673,6 @@
 				)
 				(polyline
 					(pts
-						(xy 12.936 0.5796) (xy 13.0006 0.5991)
-					)
-					(stroke
-						(width 0.0264)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 12.9358 7.0846) (xy 12.8994 7.0254)
 					)
 					(stroke
@@ -13698,6 +13686,18 @@
 				(polyline
 					(pts
 						(xy 12.9362 0.2423) (xy 12.9312 0.2628)
+					)
+					(stroke
+						(width 0.0264)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.936 0.5796) (xy 13.0006 0.5991)
 					)
 					(stroke
 						(width 0.0264)

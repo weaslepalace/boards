@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "00210a0_80000007",
-    "zone_display_mode": 1
+    "visible_layers": "00090a0_80000001",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "energy_meter.kicad_prl",
+    "filename": "Syncd_EFM32s.kicad_prl",
     "version": 3
   },
   "project": {

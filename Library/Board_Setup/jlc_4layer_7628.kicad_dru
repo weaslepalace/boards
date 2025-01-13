@@ -1,0 +1,11 @@
+(version 1)
+
+(rule Power_LED_Override
+	(condition "A.NetName == 'Net-(D201-A)' && B.NetName == '/Power/AC.Neutral'")
+	(constraint clearance(min 0.2mm))
+)
+
+(rule U202_Pin1_Clearance
+	(condition "A.memberOfFootprint('U202') && A.netClass == 'High_Voltage_AC'")
+	(constraint clearance(min 0.2mm))
+)
