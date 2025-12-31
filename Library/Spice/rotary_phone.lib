@@ -1,0 +1,72 @@
+* ======================================================================
+* 1970s Rotary Telephone – Behavioral Line Model
+* Exposed Pins:
+*   TIP, RING          — external 2-wire loop
+*   HOOK               — logic input: 1 = off-hook, 0 = on-hook
+*   MIC_IN             — inject microphone audio (e.g., from AC source)
+*   SPKR_OUT           — observe receive audio (do not drive)
+*   GND                — reference for MIC_IN and SPKR_OUT only
+*   RINGDET            — goes high when 90Vrms @ 20Hz is detected
+*
+* NOTE: This is electrically isolated from GND; loop feed must be applied
+*       across TIP/RING.
+* ======================================================================
+
+.subckt ROTARY_PHONE TIP RING HOOK MIC_IN SPKR_OUT GND RINGDET
+
+* --------------------------------------------------------------
+* Hook switch model (opens loop when on-hook)
+* --------------------------------------------------------------
+.model HOOKSW SW(Ron=10 Roff=1e7 Vt=0.5 Vh=0)
+S_HOOK_TIP TIP_H TIP HOOK GND HOOKSW
+S_HOOK_RING RING_H RING HOOK GND HOOKSW
+
+* --------------------------------------------------------------
+* DC loop current + hybrid impedance (~600 Ω total)
+* --------------------------------------------------------------
+R_LOOP1 TIP_H   NLOOP   300
+R_LOOP2 NLOOP   RING_H  300
+
+* --------------------------------------------------------------
+* Transmitter (carbon mic behavior)
+* - MIC_IN drives an internal voltage source
+* - Gain is intentionally small (carbon mics are nonlinear+weak)
+* --------------------------------------------------------------
+E_MIC N_MIC GND  MIC_IN GND  1
+G_CARBON TIP_H RING_H VALUE={ V(N_MIC)*0.002 }   ; ~2 mA/V contribution
+R_MICLEAK N_MIC GND 1e6
+
+* --------------------------------------------------------------
+* Hybrid / balance network (simple but functional)
+* --------------------------------------------------------------
+R_BAL1 TIP_H   N_BAL  270
+C_BAL1 N_BAL   RING_H 220n
+
+* --------------------------------------------------------------
+* Receiver (speaker earpiece)
+* --------------------------------------------------------------
+L_RECV N_RECV SPKR_OUT 280mH
+R_RECV N_RECV RING_H   150
+
+* --------------------------------------------------------------
+* Ringing detector
+* Responds to approx. 20Hz high voltage
+* Output is logic-level (0/5V) on node RINGDET
+* --------------------------------------------------------------
+* Full-wave rectify TIP/RING
+E_RINGABS N_RINGRECT GND  TIP RING  -1
+B_ABS N_RINGMAG GND V={ abs(V(N_RINGRECT)) }
+
+* Low-pass filter (~5 Hz) – smooth rectified ringing
+R_RFILT N_RINGMAG N_RLP 10k
+C_RFILT N_RLP GND 3.3u
+
+* Comparator – triggers high when ringing amplitude > 40 Vpeak
+E_RINGDET RINGDET GND  N_RLP GND  0.1
+R_PULLUP RINGDET GND 50k
+
+* --------------------------------------------------------------
+* End of model
+* --------------------------------------------------------------
+.ends ROTARY_PHONE
+

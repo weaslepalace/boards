@@ -1,0 +1,163 @@
+(footprint "LiteOn_LTV817S_SMD4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.825 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dbeefb4e-d506-47ec-92ca-184543b5d9f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LiteOn_LTV817S_SMD4"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f80fc86-62d2-48a5-b38f-f3085fd94b9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68c65c33-5ec7-4c1d-a3e7-8ba40ef608c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba91dd27-5be5-4648-9371-f10ed2215f9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -3.9)
+		(end -3 3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f7d6081b-7104-4025-9c92-4d6fd7021d8a")
+	)
+	(fp_line
+		(start 3 3.9)
+		(end 3 -3.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "31688bcd-c629-41bd-8bbf-1ea47669a963")
+	)
+	(fp_circle
+		(center -1.325 5.55)
+		(end -1.175 5.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bea8225b-a97a-4c90-aa9d-1e08d4799590")
+	)
+	(fp_rect
+		(start -3 -4)
+		(end 3 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d1e20b74-af68-40ef-9a72-300d75e1c3c4")
+	)
+	(fp_rect
+		(start -3 -3.81)
+		(end 3 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "335cd2bd-19ec-4133-a896-1b2dadba7e64")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.125 0.0625 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1623ac87-b3be-4108-ad38-1542d28ef56d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.27 4.6)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "a74034cb-902e-4781-a0b4-4c062c133c2e")
+	)
+	(pad "2" smd roundrect
+		(at 1.27 4.6)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e7ac2f7d-8470-4194-b851-29f9052c4ccf")
+	)
+	(pad "3" smd roundrect
+		(at 1.27 -4.6)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "be4c706b-92d1-4501-85d3-827e951b2871")
+	)
+	(pad "4" smd roundrect
+		(at -1.27 -4.6)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b4519bda-a135-4d0d-8b7c-b1da23c55dea")
+	)
+	(embedded_fonts no)
+	(model "/home/pigeonant/boards/Library/Models/LTV-817S_LTO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

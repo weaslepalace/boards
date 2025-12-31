@@ -1,0 +1,157 @@
+(footprint "Header_1x5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.64 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80f9c28f-de58-456a-b4e6-11464562b6d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Header_1x5"
+		(at 0.1 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff0c10da-edc8-4c32-a85b-490493de9ddf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -15.24 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16d435d6-5ff8-4fd5-9c00-a01ed503b0da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -15.24 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c118bfb9-4561-48d5-8d09-9b787537f5f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.84 -1.6)
+		(end 6.84 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fd74eb22-7bce-4b7c-9a06-ea17232491a8")
+	)
+	(fp_rect
+		(start -6.84 -1.6)
+		(end 6.84 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a8ad4416-4e85-4dc8-b0f1-fd2f78e6af73")
+	)
+	(fp_rect
+		(start -6.35 -1.25)
+		(end 6.35 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "86a5212a-b582-43f5-92a6-3a93055456fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8c5bdde8-b046-4086-a771-9010ed4e4017")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -5.08 0)
+		(size 1.8 2)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "371db7f8-c0fa-4139-86a3-bd6ca95daff5")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.8 1.8)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc8f30c8-ba0d-4f6a-aca3-51a582ba45aa")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e730268-e89c-4870-bf93-48107464bdb7")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d04d8ec-dbcf-4bd4-bf71-a0fd8b5febc6")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1.04)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b73964a-ce7d-48e8-b1be-564fdc48b797")
+	)
+	(embedded_fonts no)
+	(model "/home/pigeonant/boards/Library/Models/PH1-13-UA.STEP"
+		(offset
+			(xyz 15.25 0 1.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
