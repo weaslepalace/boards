@@ -1,13 +1,13 @@
-(footprint "Untitled"
+(footprint "RaspberryPi_Pico_2_W"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 12.8 -10.8 0)
+		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1283a92b-3edd-477a-a855-509125109e8e")
+		(uuid "ecb2716e-bc3d-4d9a-9c04-7e47e9531a79")
 		(effects
 			(font
 				(size 1 1)
@@ -15,12 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Untitled"
-		(at 12.8 -9.3 0)
+	(property "Value" "RaspberryPi_Pico_2_W"
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "dbebde18-3614-436d-9c4c-409d15a067dc")
+		(uuid "2ed2f229-5c46-4201-932b-824515fb73fd")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5a6e96d2-b1d8-4807-bf40-1723d17510db")
+		(uuid "d80875be-f0c9-4147-9c25-7fd11e3ff227")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c4bd742d-666f-4a89-844c-9e5d0b9ef86e")
+		(uuid "b5367d30-bc8f-4ab9-9681-e937f264379b")
 		(effects
 			(font
 				(size 1 1)
@@ -56,10 +55,10 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 12.8 -7.8 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "68ffbf6b-7d7c-47a8-af24-f24e0e752788")
+		(uuid "25fbba5c-dd4a-4528-a541-583c5b324682")
 		(effects
 			(font
 				(size 1 1)

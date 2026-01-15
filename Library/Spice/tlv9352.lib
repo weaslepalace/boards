@@ -1,12 +1,10 @@
-.subckt TLV9152 OUT_1 IN-_1 IN+_1 VCC IN+_2 IN-_2 OUT_2 OUT_3 IN-_3 IN+_3 VEE IN+_4 IN-_4 OUT_4
-XU_CTK_1 IN+_1 IN-_1 VCC VEE OUT_1 TLV9152_CKT
-XU_CTK_2 IN+_2 IN-_2 VCC VEE OUT_2 TLV9152_CKT
-XU_CTK_3 IN+_3 IN-_3 VCC VEE OUT_3 TLV9152_CKT
-XU_CTK_4 IN+_4 IN-_4 VCC VEE OUT_4 TLV9152_CKT
-.ENDS TLV9152
+.subckt TLV9352 OUT_1 IN-_1 IN+_1 VEE IN+_2 IN-_2 OUT_2 VCC
+X_CKT_1 IN+_1 IN-_1 VCC VEE OUT_1 TLV9352_CKT
+X_CKT_2 IN+_2 IN-_2 VCC VEE OUT_2 TLV9352_CKT
+.ends TLV9352
 
-* TLV9152 - Rev. B
-* Created by Bala Ravi; September 09, 2019 - Revised by GPAMPS Team; 2021-06-17
+* TLV9352 - Rev. B
+* Created by Bala Ravi; September 09, 2019 - Revised by GPAMPS Team; 2021-06-25
 * Created with Green-Williams-Lis Op Amp Macro-model Architecture
 * Copyright 2019 by Texas Instruments Corporation
 ******************************************************
@@ -37,7 +35,7 @@ XU_CTK_4 IN+_4 IN-_4 VCC VEE OUT_4 TLV9152_CKT
 * INPUT OFFSET VOLTAGE VS. INPUT COMMON-MODE VOLTAGE (Vos vs. Vcm)
 * INPUT/OUTPUT ESD CELLS (ESDin, ESDout)
 ******************************************************
-.subckt TLV9152_CKT IN+ IN- VCC VEE OUT
+.subckt TLV9352_CKT IN+ IN- VCC VEE OUT
 ******************************************************
 * MODEL DEFINITIONS:
 .model BB_SW VSWITCH(Ron=50 Roff=1e12 Von=700e-3 Voff=0)
@@ -237,7 +235,7 @@ R34         IN+ ESDp R_NOISELESS 10M
 .MODEL S_VSWITCH_8 VSWITCH (RON=50 ROFF=1T VON=500M VOFF=100M)
 .MODEL S_VSWITCH_9 VSWITCH (RON=50 ROFF=1T VON=500M VOFF=100M)
 
-.ENDS TLV9152_CKT
+.ENDS TLV9352_CKT
 *
 .SUBCKT FEMT_0  1 2
 .PARAM FLWF=1E-3

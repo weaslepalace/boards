@@ -1,0 +1,10 @@
+.subckt MCP48FVB21 VOUT VREF GND TSTEP=14.7u TRISE=7.3u
+
+BSINE n_ramp GND V = 1 - (2 * abs(-0.5 + (time / (4096 * TSTEP))))
+BSTEP n_step GND V = floor(4096 * V(n_ramp))
+BOUT n_out GND V = V(VREF) * V(n_step) / 4096
+
+ROUT n_out VOUT 611
+COUT VOUT GND 10pF
+
+.ends MCP48FVB21

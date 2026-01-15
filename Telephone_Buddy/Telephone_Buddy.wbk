@@ -2,69 +2,6 @@
   "last_sch_text_sim_command": "",
   "tabs": [
     {
-      "analysis": "TRAN",
-      "commands": [
-        ".tran 100n 16m 0 1u uic",
-        ".kicad adjustpaths",
-        ".save all",
-        ".probe alli",
-        ".probe allp"
-      ],
-      "dottedSecondary": true,
-      "margins": {
-        "bottom": 45,
-        "left": 70,
-        "right": 160,
-        "top": 30
-      },
-      "measurements": [
-        {
-          "expr": "MIN V(/Tip)",
-          "format": "3~V"
-        },
-        {
-          "expr": "MAX V(/Tip)",
-          "format": "3~V"
-        },
-        {
-          "expr": "PP I(R127)",
-          "format": "3~A"
-        },
-        {
-          "expr": "INTEG V(/PWM+)",
-          "format": "3~V.s"
-        }
-      ],
-      "showGrid": true,
-      "traces": [
-        {
-          "color": "rgb(255, 217, 47)",
-          "signal": "V(/PWM+)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(179, 179, 179)",
-          "signal": "V(Net-_C102-Pad1_)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(Net-_C104-Pad2_)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(229, 196, 148)",
-          "signal": "V(Net-_E101-C+_)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(231, 138, 195)",
-          "signal": "V(Net-_U103A--_)",
-          "trace_type": 257
-        }
-      ]
-    },
-    {
       "analysis": "AC",
       "commands": [
         ".ac dec 100 20 1Meg",
@@ -85,29 +22,6 @@
       "traces": [
         {
           "color": "rgb(228, 26, 28)",
-          "cursor2": {
-            "position": 49926.06996012691,
-            "x_format": "3~Hz",
-            "y_format": "3~°"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "signal": "V(/ADC) (phase)",
-          "trace_type": 517
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "cursor1": {
-            "position": 688.369296137165,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
           "signal": "V(/ADC) (gain)",
           "trace_type": 521
         }
@@ -121,6 +35,46 @@
         ".save all",
         ".probe alli",
         ".probe allp"
+      ]
+    },
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 10u 61.2m 0 10u uic",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [
+        {
+          "expr": "MAX I(V103)",
+          "format": "3~A"
+        },
+        {
+          "expr": "AVG I(V103)",
+          "format": "3~A"
+        }
+      ],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/TIP)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(Net-_D102-K_)",
+          "trace_type": 257
+        }
       ]
     }
   ],

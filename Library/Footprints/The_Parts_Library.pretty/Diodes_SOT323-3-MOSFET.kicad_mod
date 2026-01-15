@@ -1,0 +1,195 @@
+(footprint "Diodes_SOT323-3-MOSFET"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e19836f7-00b3-446d-9a95-98b6b619128b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "545fdac2-b3a2-45a8-8f1b-ed0a8b76f328")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d29c4a8a-671f-40fd-9d10-bbdc7f7827cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08b8d7d1-4041-40c9-8976-c4ac1a4e1216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.2 -0.8)
+		(end -1.2 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "398b2818-0f1d-462d-8dd0-84424cf69bf6")
+	)
+	(fp_line
+		(start -1.2 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6cd82029-7bf4-4527-baf7-6aa056abb8b4")
+	)
+	(fp_line
+		(start -0.3 -0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d54effec-b572-443f-9dcc-a65f07f2111a")
+	)
+	(fp_line
+		(start -0.3 0.8)
+		(end 0.3 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f7097bd8-11c7-4454-a4a3-612dcd8a089c")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end 1.2 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c47cb105-a544-40c4-bf1e-76f0d61e7ef5")
+	)
+	(fp_line
+		(start 1.2 -0.8)
+		(end 0.3 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1bffeed-4b14-4f5d-b58c-18e1c484e2fa")
+	)
+	(fp_line
+		(start 1.2 0.8)
+		(end 1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cb548ffd-e959-4888-8e51-c3e386d5f66e")
+	)
+	(fp_rect
+		(start -1.2 -0.8)
+		(end 1.2 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c1c65c7a-4652-467e-862d-99dfa952861d")
+	)
+	(fp_rect
+		(start -1.1 -0.675)
+		(end 1.1 0.675)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a6798ba8-bb93-42ea-8dfb-d84f3119de25")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c97ff9d-f5f7-4d46-bbd2-5a3e3177cac1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "D" smd roundrect
+		(at 0 -0.95)
+		(size 0.47 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "99b86016-3bf1-4710-96ae-22d1d7895e5f")
+	)
+	(pad "G" smd roundrect
+		(at -0.65 0.95)
+		(size 0.47 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "81e5ab4c-f455-4cec-b62b-bd01d1bb551c")
+	)
+	(pad "S" smd roundrect
+		(at 0.65 0.95)
+		(size 0.47 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "a874db93-fc12-484c-8683-77f59908cc8e")
+	)
+	(embedded_fonts no)
+	(model "/home/pigeonant/boards/Library/Models/SOT-323_DIO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

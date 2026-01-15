@@ -1,0 +1,188 @@
+(footprint "Molex_RJ11"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.6 -11.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e2247733-5251-4c11-b2a5-379d4bee7553")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Molex_RJ11"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2641672d-d0e9-4ccb-b36e-9c2fa41617a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f88eb32-e75d-4c40-b23a-afbb8b459d0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3dffbe0-8c21-43f0-be3f-f0327a16b1dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.6 -10.2)
+		(end -6.6 7.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a12070fd-6135-4277-b379-056db6f8c35b")
+	)
+	(fp_line
+		(start -2.6 -10.2)
+		(end -6.6 -10.2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "daa02d97-3b7b-4e57-ad64-544b2108ace3")
+	)
+	(fp_line
+		(start 2.6 -10.2)
+		(end 6.6 -10.2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f6ac620-fc5d-43bb-a2f1-c9a04bd41375")
+	)
+	(fp_line
+		(start 6.6 -10.2)
+		(end 6.6 7.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad12bfd1-0327-413f-afb2-ad937be5166c")
+	)
+	(fp_rect
+		(start -6.8 -10.4)
+		(end 6.8 8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fe4dcd9d-d782-4d3e-8f92-ab1f6251e349")
+	)
+	(fp_rect
+		(start -6.55 -10.2)
+		(end 6.55 7.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dac3107d-3a2f-47a9-a4ae-0637f8d30e40")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef675e9a-961b-417d-8be1-f2f5791d54dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.3 0)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "3573b912-f908-4f09-8c78-48e4d375bc92")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.3 0)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "fcc63d3e-3541-4f6d-b030-24a6d46671b6")
+	)
+	(pad "1" smd roundrect
+		(at -1.905 -10.225)
+		(size 0.76 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2b888b38-bd4d-4d3b-ba4d-369de9e48ede")
+	)
+	(pad "2" smd roundrect
+		(at -0.635 -10.225)
+		(size 0.76 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "555a8907-0271-4388-ac10-2ebdbae59345")
+	)
+	(pad "3" smd roundrect
+		(at 0.635 -10.225)
+		(size 0.76 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "acfb876f-0fd1-410b-85e7-7aaae92f2cf9")
+	)
+	(pad "4" smd roundrect
+		(at 1.905 -10.225)
+		(size 0.76 6.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "4d486e6f-f74f-42d6-a36e-a38bf3183611")
+	)
+	(embedded_fonts no)
+	(model "/home/pigeonant/boards/Library/Models/955016649.stp"
+		(offset
+			(xyz 0 -8 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

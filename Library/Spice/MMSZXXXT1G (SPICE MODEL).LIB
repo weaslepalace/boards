@@ -1,0 +1,1090 @@
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ2V4T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ2V4T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.00e4	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 48.25
+IZG 4 3 0.1
+R4 4 3 7.0
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 4.80e2
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ2V7T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ2V7T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 5.00e4	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 100.0
+IZG 4 3 0.1
+R4 4 3 9.74
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 5.40e2
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ3V0T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ3V0T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 1.00e5	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 95
+IZG 4 3 0.1
+R4 4 3 9.45
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 6.00e2
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ3V3T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ3V3T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.00e5	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 95
+IZG 4 3 0.1
+R4 4 3 9.52
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 6.60e2
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ3V6T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ3V6T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.00e5	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 90
+IZG 4 3 0.1
+R4 4 3 9.26
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 7.20e2
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ3V9T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ3V9T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 3.33e5	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 90
+IZG 4 3 0.1
+R4 4 3 9.27
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 7.80e2
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ4V3T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ4V3T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 3.33e5	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 90
+IZG 4 3 0.1
+R4 4 3 9.27
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 8.60e2
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ4V7T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ4V7T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 6.67e5	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 80
+IZG 4 3 0.1
+R4 4 3 8.75
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 9.40e2
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ5V1T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ5V1T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 1.00e6	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 60
+IZG 4 3 0.1
+R4 4 3 7.70
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 1.02e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ5V6T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ5V6T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.00e6	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 40
+IZG 4 3 0.1
+R4 4 3 6.65
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 1.12e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ6V2T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ6V2T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 1.33e6	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 10
+IZG 4 3 0.1
+R4 4 3 5.07
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 1.24e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ6V8T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ6V8T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.00e6	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 15
+IZG 4 3 0.1
+R4 4 3 5.33
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 1.36e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ7V5T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ7V5T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 5.00e6	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 15
+IZG 4 3 0.1
+R4 4 3 5.33
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 1.500e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ8V2T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ8V2T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 7.14e6	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 15
+IZG 4 3 0.1
+R4 4 3 5.33
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 1.64e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ9V1T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ9V1T1G    2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 1.20e7	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 15
+IZG 4 3 0.1
+R4 4 3 5.33
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 1.82e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ10T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ10T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 3.50e7	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 20
+IZG 4 3 0.1
+R4 4 3 5.50
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 2.00e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ11T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ11T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 8.00e7	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 20
+IZG 4 3 0.1
+R4 4 3 5.49
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 2.20e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ12T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ12T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.1046
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 8.00e7	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 25
+IZG 4 3 0.1
+R4 4 3 5.76
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 2.40e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ13T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ13T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 8.00e7	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 30
+IZG 4 3 0.1
+R4 4 3 6.02
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 2.60e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ15T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ15T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.091e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 30
+IZG 4 3 0.1
+R4 4 3 5.35
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 3.00e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ16T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ16T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.231e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 40
+IZG 4 3 0.1
+R4 4 3 6.55
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 3.20e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ18T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ18T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.51e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 45
+IZG 4 3 0.1
+R4 4 3 6.91
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 3.60e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ20T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ20T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 2.788e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 55
+IZG 4 3 0.1
+R4 4 3 7.35
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 4.00e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ22T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ22T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 3.068e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 55
+IZG 4 3 0.1
+R4 4 3 7.35
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 4.40e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ24T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ24T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 3.346e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 70
+IZG 4 3 0.1
+R4 4 3 8.14
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 5.00e-03
+RBV 6 0 MDRBV 4.80e3
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ27T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ27T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 3.764e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 80
+IZG 4 3 0.1
+R4 4 3 5.75
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 1.35e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ30T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ30T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 4.20e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 80
+IZG 4 3 0.1
+R4 4 3 5.76
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 1.50e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ33T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ33T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 4.602e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 80
+IZG 4 3 0.1
+R4 4 3 5.75
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 1.65e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ36T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ36T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 5.02e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 90
+IZG 4 3 0.1
+R4 4 3 5.95
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 1.80e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ39T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ39T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 5.438e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 130
+IZG 4 3 0.1
+R4 4 3 6.82
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 1.95e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ43T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ43T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 5.997e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 150
+IZG 4 3 0.1
+R4 4 3 7.25
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 2.15e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ47T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ47T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 6.553e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 170
+IZG 4 3 0.1
+R4 4 3 7.65
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 2.35e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ51T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ51T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 7.112e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 180
+IZG 4 3 0.1
+R4 4 3 7.85
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 2.55e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+***************** Zener Diode Electrical Parameters ******************
+** Zener Voltage Regulators
+** MMSZxxxT1G Series, SZMMSZxxxT1G Series
+** 500 mW SOD-123 Surface Mount
+**--------------------------------------------------------------------
+** Product: MMSZ56T1G
+**--------------------------------------------------------------------
+* Node:               anode cathode
+.SUBCKT MMSZ56T1G     2     1
+D1 2 1 MD1
+.MODEL MD1 D
++ IS=2.4305e-11  N=1.5    XTI=1   RS=13.0546
++ CJO=2.25e-9    VJ=0.45  M=1.06
++ EG=1.16
+RL 1 2 MDR 7.81e8	
+.MODEL MDR RES TC1=0 TC2=0
+RZ 2 3 200.0
+IZG 4 3 0.1
+R4 4 3 8.18
+D3 3 4 MD3
+.MODEL MD3 D IS=2.5e-10 N=3.0 XTI=1.0 EG=1.5
+D2 5 4 MD2
+.MODEL MD2 D IS=2.5e-10 N=1.0 XTI=1.0 EG=1.0
+EV1 1 5 6 0 1
+IBV 0 6 2.00e-03
+RBV 6 0 MDRBV 2.80e4
+.MODEL MDRBV RES TC1=1.0e-4
+.ENDS
+**********************************************************************
+** Creation: Feb-13-2024   Rev: 1.0
+** onsemi
+*$
+
