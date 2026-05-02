@@ -1737,7 +1737,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:R0603_100k"
+		(symbol "The_R0603_Library:R0603_100k"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1937,7 +1937,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:R0603_10R"
+		(symbol "The_R0603_Library:R0603_10R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -2137,7 +2137,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:R0603_10k"
+		(symbol "The_R0603_Library:R0603_10k"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -2337,7 +2337,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:R0603_40.2k"
+		(symbol "The_R0603_Library:R0603_40.2k"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -2537,7 +2537,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:R0603_82k"
+		(symbol "The_R0603_Library:R0603_82k"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -5406,7 +5406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:R0603_10R")
+		(lib_id "The_R0603_Library:R0603_10R")
 		(at 133.35 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6061,7 +6061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:R0603_10k")
+		(lib_id "The_R0603_Library:R0603_10k")
 		(at 140.97 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6209,7 +6209,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:R0603_82k")
+		(lib_id "The_R0603_Library:R0603_82k")
 		(at 134.62 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7826,7 +7826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:R0603_40.2k")
+		(lib_id "The_R0603_Library:R0603_40.2k")
 		(at 147.32 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8263,7 +8263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:R0603_100k")
+		(lib_id "The_R0603_Library:R0603_100k")
 		(at 104.14 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)

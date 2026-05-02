@@ -42280,7 +42280,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:R0603_1k"
+		(symbol "The_R0603_Library:R0603_1k"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -51799,7 +51799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:R0603_1k")
+		(lib_id "The_R0603_Library:R0603_1k")
 		(at 33.02 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -51947,7 +51947,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:R0603_1k")
+		(lib_id "The_R0603_Library:R0603_1k")
 		(at 123.19 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)

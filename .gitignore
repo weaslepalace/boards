@@ -3,3 +3,4 @@
 *.swp
 */fp-info-cache
 *.bak
+.history
