@@ -10,7 +10,7 @@
 		(rev "0")
 	)
 	(lib_symbols
-		(symbol "The_Parts_Library:C0603_100nF_100V_X7R"
+		(symbol "The_C0603_Library:C0603_100nF_100V_X7R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -169,7 +169,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:C0603_1uF_25V_X7R"
+		(symbol "The_C0603_Library:C0603_1uF_25V_X7R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -4061,7 +4061,7 @@
 		(uuid "f2029c8f-104a-4c01-a926-8da8c12b702d")
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 163.83 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4307,7 +4307,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 175.26 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4620,7 +4620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 96.52 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5558,7 +5558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 96.52 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6360,7 +6360,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 186.69 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6472,7 +6472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 96.52 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6761,7 +6761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 82.55 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6873,7 +6873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 82.55 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6985,7 +6985,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 158.75 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)

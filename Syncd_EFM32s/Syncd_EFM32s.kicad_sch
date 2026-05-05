@@ -10,7 +10,7 @@
 		(rev "0")
 	)
 	(lib_symbols
-		(symbol "The_Parts_Library:C0603_100nF_100V_X7R"
+		(symbol "The_C0603_Library:C0603_100nF_100V_X7R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -169,7 +169,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:C0603_1uF_25V_X7R"
+		(symbol "The_C0603_Library:C0603_1uF_25V_X7R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -46858,7 +46858,7 @@
 		(uuid "fbfe1574-e6ff-400d-8946-350df9d10bfc")
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 102.87 26.67 0)
 		(mirror y)
 		(unit 1)
@@ -47037,7 +47037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 151.13 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -47149,7 +47149,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 93.98 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -47327,7 +47327,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 232.41 25.4 0)
 		(mirror y)
 		(unit 1)
@@ -47724,7 +47724,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 163.83 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -47903,7 +47903,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 223.52 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -48479,7 +48479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 232.41 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -48938,7 +48938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 151.13 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -49674,7 +49674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 30.48 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -49963,7 +49963,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 163.83 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -50592,7 +50592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 17.78 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -50905,7 +50905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 232.41 45.72 0)
 		(mirror y)
 		(unit 1)
@@ -51329,7 +51329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 163.83 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -51441,7 +51441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 102.87 36.83 0)
 		(mirror y)
 		(unit 1)
@@ -51620,7 +51620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 30.48 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -52418,7 +52418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 17.78 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -52597,7 +52597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 30.48 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -52976,7 +52976,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 102.87 46.99 0)
 		(mirror y)
 		(unit 1)

@@ -10,7 +10,7 @@
 		(rev "0")
 	)
 	(lib_symbols
-		(symbol "The_Parts_Library:C0603_100nF_100V_X7R"
+		(symbol "The_C0603_Library:C0603_100nF_100V_X7R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -169,7 +169,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:C0603_15pF_100V_C0G"
+		(symbol "The_C0603_Library:C0603_15pF_100V_C0G"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -328,7 +328,7 @@
 				)
 			)
 		)
-		(symbol "The_Parts_Library:C0603_1uF_25V_X7R"
+		(symbol "The_C0603_Library:C0603_1uF_25V_X7R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -5296,7 +5296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_1uF_25V_X7R")
+		(lib_id "The_C0603_Library:C0603_1uF_25V_X7R")
 		(at 140.97 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5743,7 +5743,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_15pF_100V_C0G")
+		(lib_id "The_C0603_Library:C0603_15pF_100V_C0G")
 		(at 147.32 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8800,7 +8800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 92.71 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)

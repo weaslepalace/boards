@@ -10,7 +10,7 @@
 		(rev "0")
 	)
 	(lib_symbols
-		(symbol "The_Parts_Library:C0603_100nF_100V_X7R"
+		(symbol "The_C0603_Library:C0603_100nF_100V_X7R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -2940,7 +2940,7 @@
 		)
 	)
 	(symbol
-		(lib_id "The_Parts_Library:C0603_100nF_100V_X7R")
+		(lib_id "The_C0603_Library:C0603_100nF_100V_X7R")
 		(at 165.1 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
