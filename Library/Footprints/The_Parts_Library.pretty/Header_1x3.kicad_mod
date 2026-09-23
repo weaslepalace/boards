@@ -127,7 +127,7 @@
 		(uuid "4e730268-e89c-4870-bf93-48107464bdb7")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/PH1-13-UA.STEP"
+	(model "${BOARDS_LIB}/Models/PH1-13-UA.STEP"
 		(offset
 			(xyz 15.25 0 1.35)
 		)

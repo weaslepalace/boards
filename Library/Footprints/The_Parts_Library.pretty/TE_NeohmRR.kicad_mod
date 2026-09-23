@@ -129,7 +129,7 @@
 		(remove_unused_layers no)
 		(uuid "1aff542a-dde0-408e-8664-e7760a0ccbcf")
 	)
-	(model "/home/pigeonant/boards/Library/Models/c-4-1879354-5-ba-3d.stp"
+	(model "${BOARDS_LIB}/Models/c-4-1879354-5-ba-3d.stp"
 		(offset
 			(xyz 0 0 3)
 		)

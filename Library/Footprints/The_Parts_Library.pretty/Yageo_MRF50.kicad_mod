@@ -129,7 +129,7 @@
 		(remove_unused_layers no)
 		(uuid "3c0eb851-5250-499a-be00-9334c31efca8")
 	)
-	(model "/home/pigeonant/boards/Library/Models/YAG_MF25_YAG.step"
+	(model "${BOARDS_LIB}/Models/YAG_MF25_YAG.step"
 		(offset
 			(xyz -5.75 0 0)
 		)

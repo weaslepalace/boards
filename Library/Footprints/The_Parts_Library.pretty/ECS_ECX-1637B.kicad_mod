@@ -141,7 +141,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "acbd99d5-8d9b-4151-be50-2d71d692b194")
 	)
-	(model "/home/pigeonant/boards/Library/Models/ECX-1637B-SMD_ECS.step"
+	(model "${BOARDS_LIB}/Models/ECX-1637B-SMD_ECS.step"
 		(offset
 			(xyz 0 0 0)
 		)

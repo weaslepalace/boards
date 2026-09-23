@@ -228,7 +228,7 @@
 		(uuid "11f4211f-1cc1-438b-ad74-1a41f032fb93")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/PW0014A.stp"
+	(model "${BOARDS_LIB}/Models/PW0014A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

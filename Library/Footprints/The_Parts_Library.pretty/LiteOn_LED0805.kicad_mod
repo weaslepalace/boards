@@ -145,7 +145,7 @@
 		(uuid "d6435c3d-7fa3-491d-baa1-c874eb93fa80")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/LTST-C171KRKT.step"
+	(model "${BOARDS_LIB}/Models/LTST-C171KRKT.step"
 		(offset
 			(xyz 0 0 0)
 		)

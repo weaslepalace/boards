@@ -157,7 +157,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "c02f04f7-14d8-4a9a-906a-8415dc581284")
 	)
-	(model "/home/pigeonant/boards/Library/Models/S1M.STEP"
+	(model "${BOARDS_LIB}/Models/S1M.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

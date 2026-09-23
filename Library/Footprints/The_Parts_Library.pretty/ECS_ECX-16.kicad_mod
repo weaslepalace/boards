@@ -136,7 +136,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "322a9d88-c63d-432d-8e16-f9b1a02af61e")
 	)
-	(model "/home/pigeonant/boards/Library/Models/ECS-.327-CDX-1074--3DModel-STEP-56544.STEP"
+	(model "${BOARDS_LIB}/Models/ECS-.327-CDX-1074--3DModel-STEP-56544.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

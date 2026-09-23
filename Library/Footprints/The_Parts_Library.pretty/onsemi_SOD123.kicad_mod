@@ -145,7 +145,7 @@
 		(uuid "f48e2616-22bd-40a3-a111-7dd57abe17be")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/SOD-123_ONS.step"
+	(model "${BOARDS_LIB}/Models/SOD-123_ONS.step"
 		(offset
 			(xyz 0 0 0)
 		)

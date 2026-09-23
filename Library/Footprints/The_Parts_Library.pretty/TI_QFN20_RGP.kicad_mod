@@ -368,7 +368,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "970c55b8-286e-4d96-9e67-330b809667e2")
 	)
-	(model "/home/pigeonant/boards/Library/Models/RGP0020C.stp"
+	(model "${BOARDS_LIB}/Models/RGP0020C.stp"
 		(offset
 			(xyz 0 0 0)
 		)

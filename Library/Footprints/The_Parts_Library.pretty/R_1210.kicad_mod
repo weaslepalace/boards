@@ -136,7 +136,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "5e5889ad-0504-4ef4-9bfd-b8aa8f245a8b")
 	)
-	(model "/home/pigeonant/boards/Library/Models/RES_AC1210_YAG.step"
+	(model "${BOARDS_LIB}/Models/RES_AC1210_YAG.step"
 		(offset
 			(xyz 0 0 0)
 		)

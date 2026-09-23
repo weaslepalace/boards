@@ -165,7 +165,7 @@
 		(uuid "2b7155fa-4ee5-4feb-aacd-bb34dbb239e4")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/ISO1050DUBR.STEP"
+	(model "${BOARDS_LIB}/Models/ISO1050DUBR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -149,7 +149,7 @@
 		(uuid "b4519bda-a135-4d0d-8b7c-b1da23c55dea")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/LTV-817S_LTO.step"
+	(model "${BOARDS_LIB}/Models/LTV-817S_LTO.step"
 		(offset
 			(xyz 0 0 0)
 		)

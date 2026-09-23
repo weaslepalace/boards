@@ -136,7 +136,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "932e0926-0974-4cea-82a7-6b22e053c73c")
 	)
-	(model "/home/pigeonant/boards/Library/Models/FUSE_0679H2000_BEL.step"
+	(model "${BOARDS_LIB}/Models/FUSE_0679H2000_BEL.step"
 		(offset
 			(xyz 0 0 0)
 		)

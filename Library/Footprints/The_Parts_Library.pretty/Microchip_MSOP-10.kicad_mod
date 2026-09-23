@@ -190,7 +190,7 @@
 		(uuid "9faac75f-6337-489b-a3d9-5da5e7dc7eef")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/MSOP10_UN_MCH.step"
+	(model "${BOARDS_LIB}/Models/MSOP10_UN_MCH.step"
 		(offset
 			(xyz 0 0 0)
 		)

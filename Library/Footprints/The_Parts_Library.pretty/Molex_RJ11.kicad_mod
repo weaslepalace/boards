@@ -174,7 +174,7 @@
 		(uuid "4d486e6f-f74f-42d6-a36e-a38bf3183611")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/955016649.stp"
+	(model "${BOARDS_LIB}/Models/955016649.stp"
 		(offset
 			(xyz 0 -8 6)
 		)

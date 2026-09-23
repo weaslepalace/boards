@@ -156,7 +156,7 @@
 		(uuid "28c8f33a-c036-46f4-b0f9-47e754e2f915")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/AP7383-50WR-7.stp"
+	(model "${BOARDS_LIB}/Models/AP7383-50WR-7.stp"
 		(offset
 			(xyz 0 0 0)
 		)

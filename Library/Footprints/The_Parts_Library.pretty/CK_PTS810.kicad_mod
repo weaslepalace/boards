@@ -212,7 +212,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "dcb291d1-92d2-4b37-9bb4-29fb03e8b01f")
 	)
-	(model "/home/pigeonant/boards/Library/Models/PTS810SJG250SMTRLFS.STEP"
+	(model "${BOARDS_LIB}/Models/PTS810SJG250SMTRLFS.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -205,7 +205,7 @@
 		(remove_unused_layers no)
 		(uuid "c13bc7ad-e73b-48e5-aeac-62888b9d8b64")
 	)
-	(model "/home/pigeonant/boards/Library/Models/FTSH-105-01-F-D.step"
+	(model "${BOARDS_LIB}/Models/FTSH-105-01-F-D.step"
 		(offset
 			(xyz 0 0 0)
 		)

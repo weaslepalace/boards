@@ -215,7 +215,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "63e90fb1-aabe-4445-8ef6-dcf1e9427396")
 	)
-	(model "/home/pigeonant/boards/Library/Models/SOT563_MP1653A_MNP.step"
+	(model "${BOARDS_LIB}/Models/SOT563_MP1653A_MNP.step"
 		(offset
 			(xyz 0 0 0)
 		)

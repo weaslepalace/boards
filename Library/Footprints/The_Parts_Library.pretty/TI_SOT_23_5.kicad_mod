@@ -177,7 +177,7 @@
 		(roundrect_rratio 0.08333333333)
 		(uuid "4da8c6de-b8aa-4f18-a46b-84f271f5ffda")
 	)
-	(model "/home/pigeonant/boards/Library/Models/DBV0005A.stp"
+	(model "${BOARDS_LIB}/Models/DBV0005A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

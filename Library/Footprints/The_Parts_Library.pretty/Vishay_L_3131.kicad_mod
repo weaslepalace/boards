@@ -127,7 +127,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "4773fe29-10fb-40c8-8a72-b3fd33088aff")
 	)
-	(model "/home/pigeonant/boards/Library/Models/IND_IFSC-3232DB-01_VIS.step"
+	(model "${BOARDS_LIB}/Models/IND_IFSC-3232DB-01_VIS.step"
 		(offset
 			(xyz 0 0 0)
 		)

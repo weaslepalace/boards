@@ -227,7 +227,7 @@
 		(remove_unused_layers no)
 		(uuid "f166c14f-a371-451d-9e92-ae3f23059fb7")
 	)
-	(model "/home/pigeonant/boards/Library/Models/PH1-13-UA.STEP"
+	(model "${BOARDS_LIB}/Models/PH1-13-UA.STEP"
 		(offset
 			(xyz 15.25 0 1.35)
 		)

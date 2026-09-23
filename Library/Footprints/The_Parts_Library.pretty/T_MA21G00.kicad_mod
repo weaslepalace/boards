@@ -152,7 +152,7 @@
 		(uuid "faedf96b-b1c5-4de6-9873-858d2a34ed6d")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/alt4532h.step"
+	(model "${BOARDS_LIB}/Models/alt4532h.step"
 		(offset
 			(xyz 12.85 11.625 1.5)
 		)

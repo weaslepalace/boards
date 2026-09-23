@@ -167,7 +167,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "c2e117be-a272-4560-a37b-0ba3bb731e7d")
 	)
-	(model "/home/pigeonant/boards/Library/Models/RC1206N_YAG.step"
+	(model "${BOARDS_LIB}/Models/RC1206N_YAG.step"
 		(offset
 			(xyz 0 0 0)
 		)

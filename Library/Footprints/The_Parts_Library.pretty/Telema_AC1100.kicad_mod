@@ -149,7 +149,7 @@
 		(remove_unused_layers no)
 		(uuid "741a8d00-40ee-4606-8484-55e10529b108")
 	)
-	(model "/home/pigeonant/boards/Library/Models/AC1100.step"
+	(model "${BOARDS_LIB}/Models/AC1100.step"
 		(offset
 			(xyz 0 0 0)
 		)

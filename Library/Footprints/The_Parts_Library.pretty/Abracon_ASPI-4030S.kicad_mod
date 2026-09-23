@@ -164,7 +164,7 @@
 		(uuid "c1b61f51-3101-4475-86fb-4fe448dacf0f")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/ASPI-4030S.STEP"
+	(model "${BOARDS_LIB}/Models/ASPI-4030S.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

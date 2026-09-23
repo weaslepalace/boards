@@ -163,7 +163,7 @@
 		(roundrect_rratio 0.1666666667)
 		(uuid "bae8492d-ffa7-4633-be11-28e463914384")
 	)
-	(model "/home/pigeonant/boards/Library/Models/ABM8-27.000MHZ-10-1-U-T.step"
+	(model "${BOARDS_LIB}/Models/ABM8-27.000MHZ-10-1-U-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

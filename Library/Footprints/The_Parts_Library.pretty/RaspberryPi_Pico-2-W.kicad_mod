@@ -997,7 +997,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/RP-006426-DD-A-Raspberry Pi Pico 2 3D CAD Model R5 24 07 24.step"
+	(model "${BOARDS_LIB}/Models/RP-006426-DD-A-Raspberry Pi Pico 2 3D CAD Model R5 24 07 24.step"
 		(offset
 			(xyz 0 0 0.5)
 		)

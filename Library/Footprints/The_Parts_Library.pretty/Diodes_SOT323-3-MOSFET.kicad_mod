@@ -181,7 +181,7 @@
 		(uuid "a874db93-fc12-484c-8683-77f59908cc8e")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/SOT-323_DIO.step"
+	(model "${BOARDS_LIB}/Models/SOT-323_DIO.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -412,7 +412,7 @@
 		(uuid "16da116a-4226-4acd-815e-c60b785450a6")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/RSM0032B.stp"
+	(model "${BOARDS_LIB}/Models/RSM0032B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

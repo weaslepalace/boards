@@ -136,7 +136,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "a67c54eb-ed51-45cb-a179-d79f77bee0c0")
 	)
-	(model "/home/pigeonant/boards/Library/Models/CAP_GCJ-18_MUR.step"
+	(model "${BOARDS_LIB}/Models/CAP_GCJ-18_MUR.step"
 		(offset
 			(xyz 0 0 0)
 		)

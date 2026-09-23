@@ -172,7 +172,7 @@
 		(uuid "ca951d07-c9d3-4b66-b3cc-3df1583268dd")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/SOT-23-6_CHY_MCH.step"
+	(model "${BOARDS_LIB}/Models/SOT-23-6_CHY_MCH.step"
 		(offset
 			(xyz 0 0 0)
 		)

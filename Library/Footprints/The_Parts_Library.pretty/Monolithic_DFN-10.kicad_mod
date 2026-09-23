@@ -278,7 +278,7 @@
 		(uuid "534f4f39-675d-48af-b6af-72bc995171b2")
 	)
 	(embedded_fonts no)
-	(model "/home/pigeonant/boards/Library/Models/QFN10_MP3212-1p3A_MNP.step"
+	(model "${BOARDS_LIB}/Models/QFN10_MP3212-1p3A_MNP.step"
 		(offset
 			(xyz 0 0 0)
 		)

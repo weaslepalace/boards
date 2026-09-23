@@ -452,7 +452,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "f1000b98-a021-46b2-bd88-3c0cace9552c")
 	)
-	(model "/home/pigeonant/boards/Library/Models/EFM32PG22C200F64IM32-C.stp"
+	(model "${BOARDS_LIB}/Models/EFM32PG22C200F64IM32-C.stp"
 		(offset
 			(xyz 0 0 0)
 		)
